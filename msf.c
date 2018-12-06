@@ -5,12 +5,12 @@ int main()
 {
    int a, b, c;
    
-   printf("Enter two numbers to add\n");
+   printf("Enter the number of entries, max 5, min 1\n");
    scanf("%d%d", &a, &b);
    
    c = a + b;
    
-   printf("Sum of the numbers = %d\n", c);
+   printf("Sum of the averages = %d\n", c);
    
    return 0;
 }
@@ -45,3 +45,4 @@ int main()
 	printf("Quotient: %d",quotient);
 	return  0;
 }
+
